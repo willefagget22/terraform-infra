@@ -34,18 +34,3 @@ variable "prefix" {
   default = "tfvmex"
 }
 
-
-variable "counterstrike" {
-  type = map(string)
-  default = {
-    game1 = "Counter-Strike 1.6"
-    game2 = "Counter-Strike: Source"
-    game3 = "Counter-Strike: Global Offensive"
-  }
-}
-
-
-
-
-# 1 lägg till variable
-# 2 lägg till text om den 
