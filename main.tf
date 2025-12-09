@@ -147,5 +147,3 @@ resource "azurerm_public_ip" "publicip" {
   tags = var.tags
 }
 
-
-
