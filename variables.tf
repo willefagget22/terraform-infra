@@ -14,6 +14,8 @@ variable "tags" {
     ManagedBy   = "Terraform"
     Owner       = "Wille"
     Location    = "Sweden Central"
+    provider    = "Azure"
+    managed     = "yes"
   }
 }
 
@@ -25,6 +27,9 @@ variable "tagsrg" {
     default = {
         Environment = "Lab"
         ManagedBy   = "Terraform"
+        Owner       = "Wille"
+        Location    = "Sweden Central"
+        provider    = "WilleJ"
 
     }
 }
@@ -39,6 +44,8 @@ variable "CounterStrike" {
   default = {
     TeamA = "Terrorists"
     TeamB = "Counter-Terrorists"
+    TeamC = "Spectators"
+    TeamD = "Coaches"
   }
 }
 
