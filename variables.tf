@@ -33,3 +33,12 @@ variable "tagsrg" {
 variable "prefix" {
   default = "tfvmex"
 }
+
+variable "CounterStrike" {
+  type = map(string)
+  default = {
+    TeamA = "Terrorists"
+    TeamB = "Counter-Terrorists"
+  }
+}
+
